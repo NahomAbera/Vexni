@@ -1,4 +1,4 @@
-# Vexni: Vision Execution Neural Interface
+![Screenshot 2024-09-08 113359](https://github.com/user-attachments/assets/2508fb9e-26e5-42a8-b37d-f8db76e966ec)
 
 ## Description: 
 Vexni is a domain specific programming language (DSL) which will be designed for simplifying the development of neural networks for computer vision (CV) tasks by making complex CV and image processing algorithms easier to define and execute. 
