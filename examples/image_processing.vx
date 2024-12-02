@@ -1,0 +1,6 @@
+function main() {
+    var img = load_image("images/group_photo.jpg");
+    var gray_img = convert_to_grayscale(img);
+    save_image(gray_img, "images/group_photo_gray.jpg");
+    print("Grayscale image saved as 'group_photo_gray.jpg'");
+}
