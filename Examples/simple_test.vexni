@@ -1,0 +1,6 @@
+function main() {
+    int x = 9;
+    int y = 10;
+    string message = "Hello, Vexni!";
+    print(x+y);
+}

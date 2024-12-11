@@ -1,0 +1,27 @@
+function process_image(string path) {
+    print("Hello2");
+    image img = load_image(path);
+    print("Hello3");
+    list faces = detect_faces(img);
+    print("Hello4");
+    
+    for (face in faces) {
+        print("Hello5");
+        dict bbox = face["bbox"];
+        print("Hello6");
+        draw_rectangle(img, bbox["x"], bbox["y"], bbox["width"], bbox["height"]);
+        print("Hello7");
+    }
+    print("Hello8");
+    save_image(img, "output_faces.jpg");
+    print("Hello9");
+    return len(faces);
+}
+
+function main() {
+    print("Hello1");
+    int face_count = process_image("Examples/group_photo.jpg");
+    print("Hello1");
+    print(face_count);
+    print("Hello1");
+}

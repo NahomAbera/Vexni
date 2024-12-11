@@ -1,0 +1,10 @@
+function main() {
+    image img = load_image("Examples/street.jpg");
+    list detections = detect_objects(img);
+    
+    for (detection in detections) {
+        string label = detection["label"];
+        float confidence = detection["confidence"];
+        print(label);
+    }
+}

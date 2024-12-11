@@ -1,0 +1,5 @@
+function main() {
+
+    string text = extract_text("Examples/doc1.jpg");
+    print(text);
+}

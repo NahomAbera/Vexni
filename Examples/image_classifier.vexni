@@ -1,0 +1,37 @@
+function classify_images(list paths) {
+    dict categories = {};
+    
+    for (string path in paths) {
+        string category = classify_image(path);
+        
+        if (categories[category] == null) {
+            categories[category] = 1;
+        } else {
+            categories[category] += 1;
+        }
+    }
+    
+    return categories;
+}
+
+function print_statistics(dict stats) {
+    print("\nClassification Results:");
+    print("----------------------");
+    
+    int total = 0;
+    for (string category in stats) {
+        total += stats[category];
+    }
+    
+    for (string category in stats) {
+        int count = stats[category];
+        float percentage = (count / total) * 100;
+        print(category + ": " + count + " (" + percentage + "%)");
+    }
+}
+
+function main() {
+    list images = get_files_in_directory("images/*.jpg");
+    dict results = classify_images(images);
+    print_statistics(results);
+}

@@ -1,0 +1,9 @@
+function main() {
+    print(1);
+    image generated = generate_image("A glass of water");
+    print(2);
+    string filename = "glass_of_water.jpg";
+    print(3);
+    save_image(generated, filename);
+    print(4);
+}
