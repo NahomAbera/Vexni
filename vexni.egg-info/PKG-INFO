@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: vexni
+Version: 1.0.0
+Summary: A Domain Specific Language for Computer Vision
+Home-page: https://github.com/NahomAbera/Vexni
+Author: Nahom Abera
+Author-email: nahomtesfahun001@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: ultralytics
+Requires-Dist: transformers
+Requires-Dist: pytesseract
+Requires-Dist: diffusers
+Requires-Dist: torch
+
+# Vexni - Vision Execution Neural Interface
+
+A domain-specific language (DSL) designed for simplifying computer vision tasks.
+
+## Features
+
+- Object Detection
+- Image Classification
+- Face Detection
+- Optical Character Recognition (OCR)
+- Image Generation
+
+## Installation
+
+```bash
+pip install -e .
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+vexni your_script.vexni
+```
+
+## Examples
+
+See the `Examples` directory for sample programs.
+
+## Requirements
+
+- Python 3.8 or higher
+- OpenCV
+- YOLOv8
+- Transformers
+- PyTesseract
+- Stable Diffusion

@@ -1,0 +1,13 @@
+README.md
+setup.py
+vexni/__init__.py
+vexni/interpreter.py
+vexni/lexer.py
+vexni/parser.py
+vexni/runner.py
+vexni.egg-info/PKG-INFO
+vexni.egg-info/SOURCES.txt
+vexni.egg-info/dependency_links.txt
+vexni.egg-info/entry_points.txt
+vexni.egg-info/requires.txt
+vexni.egg-info/top_level.txt

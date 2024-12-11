@@ -1,0 +1,2 @@
+[console_scripts]
+vexni = vexni.runner:main
