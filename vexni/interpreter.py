@@ -11,7 +11,6 @@ from diffusers import StableDiffusionPipeline
 import pytesseract
 from typing import Any, Dict, List, Optional
 from dataclasses import dataclass
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\nahom\AppData\Local\Tesseract-OCR\tesseract.exe'
 from .parser import (
     ASTNode, Program, FunctionDeclaration, VariableDeclaration,
     Assignment, BinaryOperation, UnaryOperation, IfStatement,
